@@ -17,58 +17,23 @@ function App() {
   return (
     <div className="App">
       <div><NavBar /></div>
-      <div><img src={imageBanner} className="image-banner" alt="Hello There Image Banner"></img></div>
-      <div>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
+      {/* <div><img src={imageBanner} className="image-banner" alt="Hello There Image Banner"></img></div> */}
+      <div className="Home-Wrap">
+        <div className="container">
+          <div className="Introduction-Text">
+            <h1>Matthew MacNeil</h1>
+            <h2>Programmer | Game & Media Desinger</h2>
+          </div>  
+        </div>
+      </div>
+      <div className="Description">
+        <div className="container">
+          <div className="Column-Setup">
+
+          </div>
+          <p>I am Matthew MacNeil, programmer extraordinaire</p>
+        </div>
+        
       </div>
     </div>
   )

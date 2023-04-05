@@ -1,6 +1,29 @@
+body{
+  background-image: url('./assets/ImageBanner.jpg');
+}
+.Home-Wrap{
+  padding:250px 0 200px;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Introduction-Text{
+  text-align: center;
+}
+.Description{
+  background-color: azure;
+  text-align: center;
+  padding: 10px;
+  padding-top: 10px;
+}
 .image-banner{
+  position: relative;
   width:100%;
-  height: 600px;
 }
 
 
