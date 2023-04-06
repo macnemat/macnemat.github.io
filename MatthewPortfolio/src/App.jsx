@@ -22,14 +22,22 @@ function App() {
         <div className="container">
           <div className="Introduction-Text">
             <h1>Matthew MacNeil</h1>
-            <h2>Programmer | Game & Media Desinger</h2>
+            <h2>Programmer | Game & Media Designer</h2>
           </div>  
         </div>
       </div>
       <div className="Description">
         <div className="container">
           <div className="Column-Setup">
-
+            <div className="col-1">
+              <h3>Column 1</h3>
+            </div>
+            <div className="col-1">
+              <h3>Column 2</h3>
+            </div>
+            <div className="col-1">
+              <h3>Column 3</h3>
+            </div>
           </div>
           <p>I am Matthew MacNeil, programmer extraordinaire</p>
         </div>
