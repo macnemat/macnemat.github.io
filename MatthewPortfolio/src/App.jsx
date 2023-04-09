@@ -29,19 +29,24 @@ function App() {
       <div className="Description">
         <div className="container">
           <div className="Column-Setup">
-            <div className="col-1">
-              <h3>Column 1</h3>
+            <div className="column-style-1">
+              <h3>Programmer</h3>
+              <p>This is a body paragraph for column 1</p>
             </div>
-            <div className="col-1">
-              <h3>Column 2</h3>
+            <div className="column-style-1">
+              <h3>Game Designer</h3>
+              <p>This is a body paragraph for column 2</p>
             </div>
-            <div className="col-1">
-              <h3>Column 3</h3>
+            <div className="column-style-1">
+              <h3>Media</h3>
+              <p>This is a body paragraph for column 3</p>
             </div>
           </div>
           <p>I am Matthew MacNeil, programmer extraordinaire</p>
         </div>
-        
+      </div>
+      <div className="Project-Showcase">
+        <h2>Projects</h2>
       </div>
     </div>
   )

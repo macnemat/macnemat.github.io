@@ -5,12 +5,12 @@ body{
   padding:250px 0 200px;
 }
 
-.container{
+/* .container{
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 .Introduction-Text{
   text-align: center;
@@ -21,13 +21,24 @@ body{
   padding: 10px;
   padding-top: 10px;
 }
+.Project-Showcase{
+  background-color:black;
+  color:azure;
+  text-align: center;
+  padding: 10px;
+  padding-top: 10px;
+  
+}
+/* .Column-Setup */
 
-.col-1{
+.column-style-1{
   display: inline-block;
   vertical-align: top;
+  width: 10%;
   margin: 10px;
   padding: 10px;
   text-align: center;
+  box-sizing: content-box;
 }
 
 /* #root {
