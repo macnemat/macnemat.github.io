@@ -4,6 +4,7 @@ import imageBanner from './assets/ImageBanner.jpg'
 import viteLogo from '/vite.svg'
 
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from './Components/NavBar';
@@ -23,7 +24,7 @@ function App() {
           <div className="Introduction-Text">
             <h1>Matthew MacNeil</h1>
             <h2>Programmer | Game & Media Designer</h2>
-          </div>  
+          </div>
         </div>
       </div>
       <div className="Description">
@@ -47,6 +48,17 @@ function App() {
       </div>
       <div className="Project-Showcase">
         <h2>Projects</h2>
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
       </div>
     </div>
   )
