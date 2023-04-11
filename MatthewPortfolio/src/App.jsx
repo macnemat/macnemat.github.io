@@ -8,6 +8,8 @@ import Button from 'react-bootstrap/Button'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from './Components/NavBar';
+import ProjectCards from './Components/ProjectCards'
+import Footer from './Components/Footer'
 
 import './App.css'
 let imageBanner2 = './assets/ImageBanner.jpg'
@@ -17,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <div><NavBar /></div>
+      <NavBar />
       {/* <div><img src={imageBanner} className="image-banner" alt="Hello There Image Banner"></img></div> */}
       <div className="Home-Wrap">
         <div className="container">
@@ -48,18 +50,9 @@ function App() {
       </div>
       <div className="Project-Showcase">
         <h2>Projects</h2>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+        <ProjectCards />
       </div>
+      <Footer />
     </div>
   )
 }

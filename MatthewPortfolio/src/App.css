@@ -12,6 +12,13 @@ body{
   padding-right: 15px;
 } */
 
+.Footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
 .Introduction-Text{
   text-align: center;
 }
@@ -23,12 +30,14 @@ body{
 }
 .Project-Showcase{
   background-color:black;
-  color:azure;
+  color:aqua;
   text-align: center;
   padding: 10px;
   padding-top: 10px;
   
 }
+
+
 /* .Column-Setup */
 
 .column-style-1{
