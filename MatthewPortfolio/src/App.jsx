@@ -30,7 +30,7 @@ function App() {
         </div>
       </div>
       <div className="Description">
-        <div className="container">
+        <div className="container2">
           <div className="Column-Setup">
             <div className="column-style-1">
               <h3>Programmer</h3>
@@ -49,7 +49,8 @@ function App() {
         </div>
       </div>
       <div className="Project-Showcase">
-        <h2>Projects</h2>
+        <h1>Projects</h1>
+        <p />
         <ProjectCards />
       </div>
       <Footer />
