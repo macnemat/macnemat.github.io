@@ -6,7 +6,7 @@ function ProjectCards() {
       <CardGroup>
         <a href="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth_Logo.png">
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="../src/assets/ProjectMammoth_Logo.png" />
+          <Card.Img variant="top" src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth_Logo.png" />
           <Card.Body>
             <Card.Title>Project Mammoth</Card.Title>
             <Card.Text>
