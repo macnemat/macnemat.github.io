@@ -31,7 +31,7 @@ h3{
 }
 
 .navbar-margin{
-  margin-left: 50%;
+  margin-left: 40%;
 }
 
 .Footer{
@@ -78,8 +78,13 @@ h3{
 }
 .Featured-Projects{
   display: inline-block;
+  color:black;
 }
 
+.Project-Cover-Image{
+  height: 15rem;
+  object-fit: cover;
+}
 
 /* .Column-Setup */
 
@@ -99,6 +104,10 @@ h3{
   vertical-align: top;
   margin: 20px;
   padding: 20px;
+}
+
+.modal-90w{
+  min-width: 90%;
 }
 
 /* #root {
