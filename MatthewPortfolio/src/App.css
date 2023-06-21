@@ -110,6 +110,13 @@ h3{
   min-width: 90%;
 }
 
+/* Modal Formats */
+.Mod-Banner-Image{
+  min-width: auto;
+  min-height: auto;
+}
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

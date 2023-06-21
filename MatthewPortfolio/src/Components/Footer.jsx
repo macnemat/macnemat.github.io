@@ -1,3 +1,4 @@
+import { Image } from 'react-bootstrap';
 
 function Footer(){
     return(
@@ -10,7 +11,7 @@ function Footer(){
                 <h2>(613)-914-1897</h2>
             </div>
             <div className="Footer-Col">
-                <a href="https://www.linkedin.com/in/matthew-macneil-9999ba22b"><img src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Linkedin_Logo.png" width="50" height="50"/></a>
+                <a href="https://www.linkedin.com/in/matthew-macneil-9999ba22b"><Image src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Linkedin_Logo.png" width="50" height="50"/></a>
             </div>
             </div>
         </div>

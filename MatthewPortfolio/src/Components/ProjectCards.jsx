@@ -1,4 +1,4 @@
-import { Card, CardGroup, Modal, Button, Container, Row, Col } from 'react-bootstrap';
+import { Card, CardGroup, Modal, Button, Container, Row, Col, Image } from 'react-bootstrap';
 import { useState } from 'react';
 
 
@@ -57,18 +57,23 @@ function ProjectCards() {
       </Container>
 
       <Modal show={show} onHide={handleClose} dialogClassName="modal-90w">
-        <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-             Close
-            </Button>
-            <Button variant="primary" onClick={handleClose}>
-             Save Changes
-            </Button>
-          </Modal.Footer>
+        
+        <Modal.Body>
+          <Row>
+            <Col>
+              <Image className='Mod-Banner-Image' src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth_Logo.png" fluid />
+            </Col>
+            <Col>       
+              <h1>Project Mammoth</h1>
+            </Col>
+          </Row>
+
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={handleClose} variant="secondary">
+            Close
+          </Button>
+        </Modal.Footer>
       </Modal>
     </div>
   );
