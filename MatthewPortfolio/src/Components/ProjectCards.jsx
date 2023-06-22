@@ -59,15 +59,21 @@ function ProjectCards() {
       <Modal show={show} onHide={handleClose} dialogClassName="modal-90w">
         
         <Modal.Body>
+          <Container >
           <Row>
             <Col>
               <Image className='Mod-Banner-Image' src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth_Logo.png" fluid />
             </Col>
             <Col>       
-              <h1>Project Mammoth</h1>
+              <h1 className='Mod-Title-Text'>Project Mammoth</h1>
+              <a href='https://mkashew13.wixsite.com/project-mammoth'><h3 className='Mod-URL-Text'>projectmammoth.com</h3></a>
+              <a href='https://github.com/macnemat/Project-Mammoth'><Image className='Mod-GitHub' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/5b685a804a59ce5537db30a7107319760d171672/MatthewPortfolio/src/assets/github-mark/github-mark/github-mark.svg' /></a>
             </Col>
           </Row>
-
+          </Container>
+            <p className='Mod-Body-Text'>
+              Project Mammoth is a hologram interface focused on raising awareness to endangered spieces across the planet
+            </p>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={handleClose} variant="secondary">
