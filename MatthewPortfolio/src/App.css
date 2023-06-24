@@ -1,27 +1,30 @@
-body{
+body {
   background-image: url('./assets/Photos/0F7A2527-2.jpg');
   background-size: 50%;
 }
-h1{
-  text-align: center;
-}
-h2{
-  text-align: center;
-}
-h3{
+
+h1 {
   text-align: center;
 }
 
-.right{
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.right {
   margin-left: auto;
   margin-right: 0;
 }
 
-.Home-Wrap{
-  padding:250px 0 170px;
+.Home-Wrap {
+  padding: 250px 0 170px;
 }
 
-.container2{
+.container2 {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -30,65 +33,69 @@ h3{
   margin-left: auto;
 }
 
-.navbar-margin{
+.navbar-margin {
   margin-left: 40%;
 }
 
-.Footer{
+.Footer {
   background-color: #343434;
   color: white;
-  display: flex;
-  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
-.Introduction-Text{
+.Introduction-Text {
   text-align: center;
 }
 
-.Name-Text{
+.Name-Text {
   font-size: 80px;
   color: #0094FF;
 }
 
-.Self-Descriptor{
+.Self-Descriptor {
   font-size: 40px;
   color: #0087e7;
 }
 
-.Description{
+.Description {
   background-color: azure;
   text-align: center;
   padding: 10px;
   padding-top: 50px;
   padding-bottom: 50PX;
 }
-.Project-Showcase{
-  background-color:#343434;
-  color:white;
+
+.Project-Showcase {
+  background-color: #343434;
+  color: white;
   text-align: center;
   padding: 10px;
   padding-top: 10px;
-  padding-bottom: 50px;
-  
+
+
 }
-.Projects-Header{
+
+.Projects-Header {
   font-size: 60px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.Featured-Projects{
+
+.Featured-Projects {
   display: inline-block;
-  color:black;
+  color: black;
+  padding-bottom: 50px;
 }
 
-.Project-Cover-Image{
+.Project-Cover-Image {
   height: 15rem;
   object-fit: cover;
 }
 
 /* .Column-Setup */
 
-.column-style-1{
+.column-style-1 {
   display: inline-block;
   vertical-align: top;
   width: 20%;
@@ -99,51 +106,62 @@ h3{
   text-align: center;
   box-sizing: content-box;
 }
-.Footer-Col{
+
+.Footer-Col {
   display: inline-block;
   vertical-align: top;
   margin: 20px;
   padding: 20px;
 }
 
-.modal-90w{
+.modal-90w {
   min-width: 90%;
 }
 
 /* Modal Formats */
-.Mod-Banner-Image{
+.Mod-Banner-Image {
   min-width: auto;
   min-height: auto;
+  max-height: 25rem;
 }
 
-.Mod-Title-Text{
+.Mod-Title-Text {
   font-size: 40px;
   font-size: 5vw;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
-.Mod-URL-Text{
+.Mod-URL-Text {
   font-size: 1.5vw;
   margin-top: 5%;
 }
 
-.Mod-GitHub{
+.Mod-GitHub {
   display: block;
   max-height: 6vw;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  
+
 }
 
-.Mod-Body-Image{
+.Mod-Body-Image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height: auto;
 }
-.Mod-Body-Text{
+
+.Mod-Body-Video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  max-width: 100%;
+}
+
+.Mod-Body-Text {
   font-size: 25px;
 }
 

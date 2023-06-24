@@ -38,6 +38,7 @@ function App() {
         <h1 className="Projects-Header">Projects</h1>
         <p />
         <ProjectCards />
+        <hr />
       </div>
       <Footer />
     </div>
