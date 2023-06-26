@@ -6,7 +6,7 @@ function ProjectCards() {
 
   const [showMammoth, setShowMammoth] = useState(false);
   const [showHome, setShowHome] = useState(false);
-  const [showTaphin, setShowTaphin] = useState(false);
+  const [showtahpin, setShowtahpin] = useState(false);
 
 
   const handleCloseMammoth = () => setShowMammoth(false);
@@ -15,8 +15,8 @@ function ProjectCards() {
   const handleCloseHome = () => setShowHome(false);
   const handleShowHome = () => setShowHome(true);
 
-  const handleCloseTaphin = () => setShowTaphin(false);
-  const handleShowTaphin = () => setShowTaphin(true);
+  const handleClosetahpin = () => setShowtahpin(false);
+  const handleShowtahpin = () => setShowtahpin(true);
 
   return (
     <div className="Featured-Projects">
@@ -45,12 +45,12 @@ function ProjectCards() {
             </Card>
           </Col>
           <Col>
-            <Card onClick={handleShowTaphin} style={{ cursor: 'pointer', width: '18rem', height: '24rem' }}>
+            <Card onClick={handleShowtahpin} style={{ cursor: 'pointer', width: '18rem', height: '24rem' }}>
               <Card.Img variant="top" src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/tahpinLogoSnip.jfif" className='Project-Cover-Image' />
               <Card.Body>
-                <Card.Title>Taphin</Card.Title>
+                <Card.Title>Tahpin</Card.Title>
                 <Card.Text>
-                  Designer and Programmer for moblie application Taphin.
+                  Designer and Programmer for moblie application Tahpin.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -127,7 +127,7 @@ function ProjectCards() {
         </Modal.Footer>
       </Modal>
 
-      <Modal show={showTaphin} onHide={handleCloseTaphin} dialogClassName="modal-90w">
+      <Modal show={showtahpin} onHide={handleClosetahpin} dialogClassName="modal-90w">
         <Modal.Body>
           <Container>
             <Row>
@@ -135,14 +135,14 @@ function ProjectCards() {
                 <Image className='Mod-Banner-Image mx-auto d-block' src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/tahpinLogoSnip.jfif" fluid />
               </Col>
               <Col>
-                <h1 className='Mod-Title-Text'>Taphin</h1>
-                <a href='https://tahpin.com/'><h3 className='Mod-URL-Text'>taphin.com</h3></a>
+                <h1 className='Mod-Title-Text'>Tahpin</h1>
+                <a href='https://tahpin.com/'><h3 className='Mod-URL-Text'>tahpin.com</h3></a>
                 <a href='https://github.com/AbubakarBunamay/3P99-Tahpin' ><Image className='Mod-GitHub' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/5b685a804a59ce5537db30a7107319760d171672/MatthewPortfolio/src/assets/github-mark/github-mark/github-mark.svg' fluid /></a>
               </Col>
             </Row>
             <hr />
             <p className='Mod-Body-Text'>
-              Taphin is a finaical literacy application
+              Tahpin is a finaical literacy application
             </p>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_prototype.jpg' fluid />
             <p className='Mod-Body-Text' style={{ marginTop: '6px' }}>
@@ -152,7 +152,7 @@ function ProjectCards() {
           </Container>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleCloseTaphin} variant="secondary">
+          <Button onClick={handleClosetahpin} variant="secondary">
             Close
           </Button>
         </Modal.Footer>
