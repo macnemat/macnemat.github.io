@@ -117,7 +117,7 @@ function ProjectCards() {
 
             </p>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_coding.jpg' fluid />
-            <iframe className='Mod-Body-Video' width="853" height="480" src="https://www.youtube.com/embed/wZ8f6lBxQlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className='Mod-Body-Video' width="908" height="480" src="https://www.youtube.com/embed/wZ8f6lBxQlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>
           </Container>
         </Modal.Body>
         <Modal.Footer>
