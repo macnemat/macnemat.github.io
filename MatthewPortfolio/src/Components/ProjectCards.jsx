@@ -111,12 +111,12 @@ function ProjectCards() {
               HOME focused on five mental illnesses that we could best emulate through the techonology avaliable, those being: OCD, PTSD, DPDR, Panic Disorder, and Schizophrenia.
               HOME was built using a Oculus Quest 2 headset and would have the user move through scripted set pieces in order to follow the simulation.
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_prototype.jpg' fluid />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Panic-Capture.PNG' fluid />
             <p className='Mod-Body-Text' style={{ marginTop: '6px' }}>
               As a Programming Lead for the project, I was responsbile for the constructing the Virtual Reality interactions, key features, and implmentation of art and musical assests.
 
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_coding.jpg' fluid />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Schizophrenia-Capture.PNG' fluid />
             <iframe className='Mod-Body-Video' width="908" height="480" src="https://www.youtube.com/embed/wZ8f6lBxQlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>
           </Container>
         </Modal.Body>
