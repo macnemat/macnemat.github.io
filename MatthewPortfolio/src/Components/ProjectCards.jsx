@@ -73,14 +73,14 @@ function ProjectCards() {
             </Row>
             <hr />
             <p className='Mod-Body-Text'>
-              Project Mammoth is a hologram display focused on raising awareness to endangered spieces across the planet.
+              Project Mammoth is a hologram display focused on raising awareness to endangered species across the planet.
               The project aimed to use a more technologically advanced approach as a way to increase attention to the animals on display.
               The display featured a full 360° video projection that could be interacted with via a touch sensor.
             </p>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_prototype.jpg' fluid />
-            <p className='Mod-Body-Text' style={{ marginTop: '6px' }}>
-              As the primary techincal lead on Project Mammoth I was responsbile for the setup and operation of the display and interactivity. I addiontally built the application that would be running the video feed for the animals.
-              The entire setup was
+            <p className='Mod-Body-Text'>
+              As the primary technical lead on Project Mammoth, I was responsible for the setup and operation of the display and interactivity. I additionally built the application that would be running the video feed for the animals.
+              The entire setup was bulit using a Raspberry Pi as the centeral computing system that would be connected to both the TV and gesture interface.
             </p>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_coding.jpg' fluid />
           </Container>
@@ -107,16 +107,23 @@ function ProjectCards() {
             </Row>
             <hr />
             <p className='Mod-Body-Text'>
-              HOME, Hall of Mental Health Experinces, is a Virtual Reality experince that simulates what someone may experinnce living with a mental illness.
-              HOME focused on five mental illnesses that we could best emulate through the techonology avaliable, those being: OCD, PTSD, DPDR, Panic Disorder, and Schizophrenia.
-              HOME was built using a Oculus Quest 2 headset and would have the user move through scripted set pieces in order to follow the simulation.
+              HOME, Hall of Mental Health Experiences, is a Virtual Reality experience that simulates what someone may experience living with a mental illness.
+              HOME focused on five mental illnesses that we could best emulate through the technology available, those being: OCD, PTSD, DPDR, Panic Disorder, and Schizophrenia.
+              HOME was built using an Oculus Quest 2 headset and would have the user move through scripted set pieces in order to follow the simulation.
+              As a Programming Lead for the project, I was responsible for constructing the Virtual Reality interactions, key features, and implementation of the art and musical assets.
             </p>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Panic-Capture.PNG' fluid />
-            <p className='Mod-Body-Text' style={{ marginTop: '6px' }}>
-              As a Programming Lead for the project, I was responsbile for the constructing the Virtual Reality interactions, key features, and implmentation of art and musical assests.
-
+            <p className='Mod-Body-Text'>
+              I was in charge of getting the VR movement system set up, it was decided early on that the user would move using teleportation to avoid any problems with motion sickness.
+              Each of the rooms as a floor map in which the user can teleport around. For the Panic Room I had to ensure we had working interaction system that would allow the user to pick up the eggs for the section.
+              The room has several stages that the player triggers apon reaching certain parts of the room. The different stages affect the voice lines that are played, the sound level, the light level, the position of the ceiling,
+              and whether the controller starts vibrating.
             </p>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Schizophrenia-Capture.PNG' fluid />
+            <p className='Mod-Body-Text'>
+              The Schizophrenia room is a more linear experience that presents a series of different events that may or may out be real. The experience involves multiple moving pieces such as, shadows moving across the walls, voices talking from different directions,
+              objects moving on their own, and fires starting out of nowhere. The sequences are scripted with specific time intervals that were modified based on design decisions.
+            </p>
             <iframe className='Mod-Body-Video' width="908" height="480" src="https://www.youtube.com/embed/wZ8f6lBxQlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>
           </Container>
         </Modal.Body>
@@ -142,13 +149,29 @@ function ProjectCards() {
             </Row>
             <hr />
             <p className='Mod-Body-Text'>
-              Tahpin is a finaical literacy application
+              Tahpin is a financial literacy application that I and others had the opportunity to construct mini-games for. I worked as both a designer and programmer on the project,
+              I was responsible for developing mini-games from inception to functionality for a mobile phone application. This involved laying out the groundwork for mini-games, developing their mechanics,
+              and creating the user interface functionality.
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_prototype.jpg' fluid />
-            <p className='Mod-Body-Text' style={{ marginTop: '6px' }}>
-              I worked as both a desinger and Programmer on this project
+            <Row>
+              <Col>
+                <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tahpin/Trivia%20Capture.PNG' fluid />
+              </Col>
+              <Col>
+                <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tahpin/Catch-Finances-Capture.PNG' fluid />
+              </Col>
+            </Row>
+            <p className='Mod-Body-Text'>
+              There we a multitude of mini-games designed for the project although for the production portion, we selected the ones that we believed could be completed in a strict timeframe.
+              Trivia was a straightforward process of displaying the questions, answers, timer, and a score increase for answering correctly. The question base is constructed from a CSV form that can be freely
+              edited without trouble.
+              <br />
+              <br />
+              Catch Finances is the second mini game I worked on, it features a statement with a missing word that the user will have to fill in by catching one of the falling words with the basket.
+              Missing the correct word or catching the wrong word will cause the user to fail the current question and a layer of blocks to the bottom limiting the space in which the user can react to the falling words.
+              The game requires the user to be able to read and analyze the question well enough to determine if the a falling answer is correct or not and be able to catch the right answer and dodge the wrong answers.
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/ProjectMammoth/pm_coding.jpg' fluid />
+            <Image className='Mod-Body-Image' style={{ width: '30%' }} src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tahpin/Game-End-Capture.PNG' fluid />
           </Container>
         </Modal.Body>
         <Modal.Footer>
