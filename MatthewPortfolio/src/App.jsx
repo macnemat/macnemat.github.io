@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import imageBanner from './assets/ImageBanner.jpg'
-import viteLogo from '/vite.svg'
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
