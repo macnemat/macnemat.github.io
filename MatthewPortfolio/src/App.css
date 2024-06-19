@@ -9,6 +9,7 @@ body {
   background-position: top;
   background-repeat: repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -75,14 +76,20 @@ h3 {
   padding-bottom: 50PX;
 }
 
-.Project-Showcase {
+.ThreePillars {
   background-color: #343434;
   color: white;
   text-align: center;
   padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50PX;
+}
+
+.Project-Showcase {
+  background-color: azure;
+  text-align: center;
+  padding: 10px;
   padding-top: 10px;
-
-
 }
 
 .Projects-Header {

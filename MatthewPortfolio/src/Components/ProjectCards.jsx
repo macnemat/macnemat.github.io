@@ -61,7 +61,7 @@ function ProjectCards() {
           </Col>
           <Col>
             <Card onClick={handleShowTatics} style={{ cursor: 'pointer', width: '18rem', height: '24rem' }}>
-              <Card.Img variant="top" src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/tahpinLogoSnip.jfif" className='Project-Cover-Image' />
+              <Card.Img variant="top" src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/Header.png" className='Project-Cover-Image' />
               <Card.Body>
                 <Card.Title>Turn Based Tatics</Card.Title>
                 <Card.Text>
@@ -201,7 +201,7 @@ function ProjectCards() {
           <Container>
             <Row>
               <Col>
-                <Image className='Mod-Banner-Image mx-auto d-block' src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HomeLogo_no_words.png" fluid />
+                <Image className='Mod-Banner-Image mx-auto d-block' src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/Header.png" fluid />
               </Col>
               <Col>
                 <h1 className='Mod-Title-Text'>Turn Based Tatics Demo</h1>
@@ -215,12 +215,12 @@ function ProjectCards() {
               This project has been a personal favourite of mine full of difficulties and problem solving. However all by myself, and with the knowledge of others who posted and answered questions online,
               I’ve created working demo technical demo with dream of being able to build the project further.
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Panic-Capture.PNG' fluid />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/BattleScene.png' fluid />
             <p className='Mod-Body-Text'>
               Pathfinding is a crucial part of any turn based strategy game in terms of not just the path a unit can walk on but the areas that walkable themselves, along with the attackable areas.
               In order to get an accurate overlay of walkable cells the use Dijkstra’s Algorithm was necessary and is the backbone of the grid system.
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Schizophrenia-Capture.PNG' fluid />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/Unit%20Stats.png' fluid />
             <p className='Mod-Body-Text'>
               Each unit has a list of stats, weapons, and spells. Stats effect different aspects of the combat, weapons are the method in which a unit may attack an enemy, armour can increase the
               defensive stats of a unit, and spells can be used to attack an enemy or heal/enhance an ally. The biggest challenge with units was having a unit be able to contain the a list of stats
@@ -228,18 +228,17 @@ function ProjectCards() {
               a specific unit’s information, stats, and inventory without being tied to the specific unit object and are able to be freely moved to another unit object if necessary.
             </p>
             <h2>In Progess: Large Scale Engagements</h2>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/HOME/HOME-Schizophrenia-Capture.PNG' fluid />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/LargeEngagement.png' fluid />
             <p className='Mod-Body-Text'>
               Currently in development is a “battalion” system, a battalion made up from several individual units under one united battalion. The battalion have their own map to move on but once engaged
               in combat the battalions can no longer move and the units that make up the battalion can now move freely with a combat sector. The biggest challenge so far with this system is integrating
               with the existing unit combat and movement systems. Another problem has been syncing movement of both battalion movement and unit movement together and preventing any overlapping scenarios.
               This system has required far more development time than previous systems but it’s coming along quite well. I’m hoping to have a working demo of with this system soon.
             </p>
-            <iframe className='Mod-Body-Video' width="908" height="480" src="https://www.youtube.com/embed/wZ8f6lBxQlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>
           </Container>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleCloseHome} variant="secondary">
+          <Button onClick={handleCloseTatics} variant="secondary">
             Close
           </Button>
         </Modal.Footer>

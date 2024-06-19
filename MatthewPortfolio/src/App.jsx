@@ -10,6 +10,7 @@ import NavBar from './Components/NavBar';
 import ProjectCards from './Components/ProjectCards'
 import Footer from './Components/Footer'
 import Description from './Components/Description'
+import ThreePillars from './Components/ThreePillars'
 
 import './App.css'
 let imageBanner2 = './assets/ImageBanner.jpg'
@@ -33,11 +34,12 @@ function App() {
       <div className="Description">
         <Description />
       </div>
+      <div className="ThreePillars">
+        <ThreePillars />
+      </div>
       <div className="Project-Showcase" id="projects">
         <h1 className="Projects-Header">Projects</h1>
-        <p />
         <ProjectCards />
-        <hr />
       </div>
       <Footer />
     </div>

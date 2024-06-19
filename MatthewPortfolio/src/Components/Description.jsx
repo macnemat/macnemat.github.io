@@ -1,34 +1,15 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 function Description() {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <h1>Programmer</h1>
-                    <p>
-                        I love to program. The process of creating something from scratch using various languages fills me with pride.
-                        My time over these past years has been spent learning languages and programming methods to improve my capabilities.
-                        On the side, I like to build and test small mechanisms to keep my skills sharp.
-                    </p>
-                </Col>
-                <Col>
-                    <h1>Game Designer</h1>
-                    <p>
-                        Game Design is a passion of mine, the idea behind creating a framework and flow is something I think about every single day.
-                        My skills in Game Design were developed using the knowledge I gained from my time at University.
-                        On my own free time, I design game structures and patterns to encourage myself to explore new ways players can interact with game mechanics.
-                    </p>
-                </Col>
-                <Col>
-                    <h1>Media</h1>
-                    <p>
-                        I possess numerous skills in creating various forms of media. My greatest skills lie in video editing and animation.
-                        My experience in media creation was developed at an early age with my desire to create home videos and later edited Youtube content.
-                        This was further expanded in dedicated Video editing and Animation courses.
-                    </p>
-                </Col>
-            </Row>
+            <p className='Mod-Body-Text'>
+                Hi! I’m Matthew MacNeil a programmer and designer from Ottawa, Canada. I graduated with a Bachelor of Arts Honours from Brock University in 2023 with a degree in Interactive Arts and
+                Science. I am extremely passionate about video games and interactive storytelling. From inception to delivery, the process of the bringing a project to life from a design documents is
+                what I strive for. The ability to bring convey emotions and feelings in people through stories is what I care for. Not just stories in terms of narrative but the stories that are created
+                from gameplay, the challenges and the successes players go through to complete a game. All of this is why I program, why I’m here. If you want to get in touch with me about any job
+                opportunities, then I’m more than happy to talk to you.
+            </p>
         </Container>
     )
 }
