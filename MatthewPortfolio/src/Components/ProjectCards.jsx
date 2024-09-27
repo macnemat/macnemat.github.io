@@ -205,7 +205,7 @@ function ProjectCards() {
               </Col>
               <Col>
                 <h1 className='Mod-Title-Text'>Turn Based Tatics Demo</h1>
-                <a href='https://matthewmacneil.itch.io/godot-turn-based-tactics-demo' target="_blank"><Image className='Mod-GitHub' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/5b685a804a59ce5537db30a7107319760d171672/MatthewPortfolio/src/assets/Itchio-logos/logos/itchio-logo-textless-black.svg' fluid /></a>
+                <a href='https://matthewmacneil.itch.io/godot-turn-based-tactics-demo' target="_blank"><Image className='Mod-GitHub' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/8b55eab5745b3c11faf04ddd92fb272c8a395bc9/MatthewPortfolio/src/assets/Itchio-logos/logos/itchio-logo-textless-black.svg' fluid /></a>
               </Col>
             </Row>
             <hr />
