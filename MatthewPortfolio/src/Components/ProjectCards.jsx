@@ -205,17 +205,18 @@ function ProjectCards() {
               </Col>
               <Col>
                 <h1 className='Mod-Title-Text'>Turn Based Tatics Demo</h1>
-                <a href='https://github.com/macnemat' target="_blank"><Image className='Mod-GitHub' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/5b685a804a59ce5537db30a7107319760d171672/MatthewPortfolio/src/assets/github-mark/github-mark/github-mark.svg' fluid /></a>
+                <a href='https://matthewmacneil.itch.io/godot-turn-based-tactics-demo' target="_blank"><Image className='Mod-GitHub' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/5b685a804a59ce5537db30a7107319760d171672/MatthewPortfolio/src/assets/Itchio-logos/logos/itchio-logo-textless-black.svg' fluid /></a>
               </Col>
             </Row>
             <hr />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/BattleScene.png' fluid />
             <p className='Mod-Body-Text'>
               A Turn Based Tactics RPG built in the Godot engine. The game takes place on a two dimensional grid which contains “units” that either the player controllers or must defeat.
               All units from one side may make an action on their turn, after which the opposing set of units can make their actions.
               This project has been a personal favourite of mine full of difficulties and problem solving. However all by myself, and with the knowledge of others who posted and answered questions online,
               I’ve created working demo technical demo with dream of being able to build the project further.
             </p>
-            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/BattleScene.png' fluid />
+            <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/Movement.png' fluid />
             <p className='Mod-Body-Text'>
               Pathfinding is a crucial part of any turn based strategy game in terms of not just the path a unit can walk on but the areas that walkable themselves, along with the attackable areas.
               In order to get an accurate overlay of walkable cells the use Dijkstra’s Algorithm was necessary and is the backbone of the grid system.
@@ -227,13 +228,17 @@ function ProjectCards() {
               and items without the either being directly tied to the unit object itself. Godot’s Resources were a massive help as they are able to contain all the information regarding
               a specific unit’s information, stats, and inventory without being tied to the specific unit object and are able to be freely moved to another unit object if necessary.
             </p>
-            <h2>In Progess: Large Scale Engagements</h2>
+            <h2>Large Scale Engagements</h2>
             <Image className='Mod-Body-Image' src='https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/LargeEngagement.png' fluid />
             <p className='Mod-Body-Text'>
-              Currently in development is a “battalion” system, a battalion made up from several individual units under one united battalion. The battalion have their own map to move on but once engaged
+              To try to mimic large scale engagments I created the battalion system. A battalion made up from several individual units under one united battalion. The battalions have their own map to move on but once engaged
               in combat the battalions can no longer move and the units that make up the battalion can now move freely with a combat sector. The biggest challenge so far with this system is integrating
               with the existing unit combat and movement systems. Another problem has been syncing movement of both battalion movement and unit movement together and preventing any overlapping scenarios.
-              This system has required far more development time than previous systems but it’s coming along quite well. I’m hoping to have a working demo of with this system soon.
+              This system has required far more development time than previous systems however I am very happy with the current state of the battalion system and hope to improve it with time.
+            </p>
+            <p className='Mod-Body-Text'>
+              Developing this project has been a dream come true, looking back at when I first started this project I can't help myself but to be proud of the work I've accomplished. Every challenge and obsatcule
+              I've overcome to get this far has been worth it. If you wish to play my game yourself you can head over to <a href="https://matthewmacneil.itch.io/godot-turn-based-tactics-demo">Itch.io and play the browser version of it.</a>
             </p>
           </Container>
         </Modal.Body>
