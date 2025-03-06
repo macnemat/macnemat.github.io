@@ -24,7 +24,7 @@ function ThreePillars() {
                     <h1>Media</h1>
                     <p>
                         I possess numerous skills in creating various forms of media. My greatest skills lie in video editing and animation.
-                        My experience in media creation was developed at an early age with my desire to create home videos and later edited Youtube content.
+                        My experience in media creation was developed at an early age with my desire to create home videos and later edited YouTube content.
                         This was further expanded in dedicated Video editing and Animation courses.
                     </p>
                 </Col>
