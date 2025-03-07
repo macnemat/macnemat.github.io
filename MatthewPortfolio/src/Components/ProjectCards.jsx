@@ -25,10 +25,10 @@ function ProjectCards() {
   return (
     <div className="Featured-Projects">
       <Container>
-        <Row>
-          <Col>
-            <Card onClick={handleShowTactics} style={{ cursor: 'pointer', width: '24rem', height: '24rem' }}>
-              <Card.Img variant="top" src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/Header.png" className='Project-Cover-Image' />
+        <Row className="justify-content-md-center">
+          <Col md="auto">
+            <Card onClick={handleShowTactics} style={{ cursor: 'pointer', width: '18rem', height: '24rem' }}>
+              <Card.Img variant="top" src="https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Tactics/Header.png" className='Project-Cover-Scaled-Down' />
               <Card.Body>
                 <Card.Title>Turn-Based Tactics</Card.Title>
                 <Card.Text>
@@ -38,6 +38,7 @@ function ProjectCards() {
             </Card>
           </Col>
         </Row>
+        <br />
         <Row>
           <Col>
             <Card onClick={handleShowMammoth} style={{ cursor: 'pointer', width: '18rem', height: '24rem' }}>

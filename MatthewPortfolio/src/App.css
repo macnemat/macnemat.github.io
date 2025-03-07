@@ -109,6 +109,11 @@ h3 {
   object-fit: cover;
 }
 
+.Project-Cover-Scaled-Down {
+  height: 15rem;
+  object-fit: scale-down;
+}
+
 /* .Column-Setup */
 
 .column-style-1 {
