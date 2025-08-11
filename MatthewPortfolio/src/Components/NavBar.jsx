@@ -13,6 +13,7 @@ function NavBar() {
           <Nav className="mb-lg-1 ms-auto">
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
+            <Link href="../assets/Resume/Matthew-MacNeil-Resume.pdf">Resume</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
