@@ -11,7 +11,7 @@ function Footer() {
                     <h2>macnemat@gmail.com</h2>
                 </Col>
                 <Col>
-                    <a href = "https://github.com/macnemat/macnemat.github.io/blob/4110aa684d6bb6ee19cbe19ad991068a960903e5/MatthewPortfolio/src/assets/Resume/Matthew-MacNeil-Resume.pdf"><h2>Resume</h2></a>
+                    <a href = "https://raw.githubusercontent.com/macnemat/macnemat.github.io/main/MatthewPortfolio/src/assets/Resume/Matthew-MacNeil-Resume.pdf" target="_blank" type="application/pdf"><h2>Resume</h2></a>
                 </Col>
             </Row>
         </div>
